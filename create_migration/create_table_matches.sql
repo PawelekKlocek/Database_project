@@ -6,5 +6,6 @@ create table matches (
     team2_id int references teams(team_id) on delete cascade,
     team1_score int,
     team2_score int,
-    referee_id int references users(user_id) on delete set null
+    referee_id int references users(user_id) on delete set null,
+    pitch_id int references pitch(pitch_id) on delete set null
 );
