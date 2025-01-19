@@ -47,6 +47,15 @@
 | `end_date`       | DATE        | -       | End date of the league.                         |
 
 
+#### **Table: Pitch**
+| **Field Name**    | **Data Type** | **Length** | **Description**                                   |
+|-------------------|---------------|------------|---------------------------------------------------|
+| `pitch_id`        | `SERIAL`      | -          | Unique identifier for each pitch (Primary Key).   |
+| `name`            | `VARCHAR(50)` | 50         | Name of the pitch (e.g., "Stadium 1").            |
+| `city`            | `VARCHAR(50)` | 50         | City where the pitch is located.                  |
+| `is_outdoor`      | `BOOLEAN`     | -          | Indicates if the pitch is outdoor (default `TRUE`). |
+
+
 ### Table: Matches
 | Field Name       | Data Type   | Length  | Description                                      |
 |------------------|-------------|---------|--------------------------------------------------|
@@ -58,6 +67,7 @@
 | `team1_score`    | INT         | -       | Score of the first team.                        |
 | `team2_score`    | INT         | -       | Score of the second team.                       |
 | `referee_id`     | INT         | -       | Foreign key to `Users.user_id` (referee).       |
+| `pitch_id`       | INT         | -       | Foreign key to `Pitch.pitch_id` (referee).       |
 
 
 ### Table: Goals
