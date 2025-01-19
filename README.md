@@ -47,7 +47,7 @@
 | `end_date`       | DATE        | -       | End date of the league.                         |
 
 
-#### Table: Pitch
+### Table: Pitch
 | Field Name        | Data Type     | Length     | Description                                       |
 |-------------------|---------------|------------|---------------------------------------------------|
 | `pitch_id`        | `SERIAL`      | -          | Unique identifier for each pitch (Primary Key).   |
