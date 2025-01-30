@@ -3,7 +3,9 @@ Fully User-Integrated Database For Association Of Football Divisions And Games
 
 ## How to run?
 The database is built on an online, free server space known as Railway, the database's "image" is shared in a file section as a db.dump so feel encouraged to check it out.
-You can type the following snippet of code: createdb bazunia_byq
+You can type the following snippet of code:
+```sh
+createdb bazunia_byq
 pg_restore --dbname=bazunia_byq --no-owner --clean db.dump
 
 ## Workflow environment
@@ -12,16 +14,16 @@ It is required to have fully configured Postgresql, we recommend a 17.2 version 
 ## Project general requirements
 Each team is responsible for creating and implementing its own database project, covering the full system lifecycle: from requirements analysis, through database schema design and implementation, to testing and technical documentation. You can work with any database management system (e.g., PostgreSQL, MariaDB, MySQL, Oracle, SQL Server), depending on your preferences and experience. Each team member is responsible for a specific area of work (e.g., requirements analysis, logical and physical design, function implementation, query optimization, documentation). Both teamwork and individual contributions will be evaluated.
 
-Project Requirements that we handled
-✔ Correctly functioning core database features
-✔ Schema design following basic normalization rules (2NF)
-✔ Simple user and technical documentation
-✔ Advanced functionality, including complex SQL queries (e.g., nested queries, views)
-✔ Use of triggers or stored procedures/functions specific to the chosen DBMS
-✔ Well-prepared technical documentation with ERD diagrams and implementation descriptions
-✔ Database structure meeting 3NF standards
-✔ Implementation of transactions and different isolation levels
-✔ Data security considerations (roles, permissions)
+## Project Requirements that we handled:
+- ✔ Correctly functioning core database features  
+- ✔ Schema design following basic normalization rules (2NF)  
+- ✔ Simple user and technical documentation  
+- ✔ Advanced functionality, including complex SQL queries (e.g., nested queries, views)  
+- ✔ Use of triggers or stored procedures/functions specific to the chosen DBMS  
+- ✔ Well-prepared technical documentation with ERD diagrams and implementation descriptions  
+- ✔ Database structure meeting 3NF standards  
+- ✔ Implementation of transactions and different isolation levels  
+- ✔ Data security considerations (roles, permissions)  
 
 
 # Database Schema
