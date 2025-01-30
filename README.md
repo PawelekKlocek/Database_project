@@ -18,7 +18,7 @@ It is required to have fully configured Postgresql, we recommend a 17.2 version 
 <br>
 
 ## Project general requirements
-Each team is responsible for creating and implementing its own database project, covering the full system lifecycle: from requirements analysis, through database schema design and implementation, to testing and technical documentation. You can work with any database management system (e.g., PostgreSQL, MariaDB, MySQL, Oracle, SQL Server), depending on your preferences and experience. Each team member is responsible for a specific area of work (e.g., requirements analysis, logical and physical design, function implementation, query optimization, documentation). Both teamwork and individual contributions will be evaluated.
+"Each team is responsible for creating and implementing its own database project, covering the full system lifecycle: from requirements analysis, through database schema design and implementation, to testing and technical documentation. You can work with any database management system (e.g., PostgreSQL, MariaDB, MySQL, Oracle, SQL Server), depending on your preferences and experience. Each team member is responsible for a specific area of work (e.g., requirements analysis, logical and physical design, function implementation, query optimization, documentation). Both teamwork and individual contributions will be evaluated."
 
 ### Project Requirements that we handled:
 -  Correctly functioning core database features  
