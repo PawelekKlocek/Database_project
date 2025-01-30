@@ -5,7 +5,7 @@ Fully User-Integrated Database For Association Of Football Divisions And Games
 
 ## How to run?
 The database is built on an online, free server space known as Railway, the database's "image" is shared in a file section as a db.dump so feel encouraged to check it out.
-You can type the following snippet of code:
+You can type the following snippet using your CLI:
 ```sh
 createdb bazunia_byq
 pg_restore --dbname=bazunia_byq --no-owner --clean db.dump
