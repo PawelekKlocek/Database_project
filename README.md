@@ -6,7 +6,8 @@ The database is built on an online, free server space known as Railway, the data
 You can type the following snippet of code:
 ```sh
 createdb bazunia_byq
-pg_restore --dbname=bazunia_byq --no-owner --clean db.dump```
+pg_restore --dbname=bazunia_byq --no-owner --clean db.dump
+```
 
 ## Workflow environment
 It is required to have fully configured Postgresql, we recommend a 17.2 version in a version on your local machine.
