@@ -13,7 +13,7 @@ pg_restore --dbname=bazunia_byq --no-owner --clean db.dump
 <br>
 
 ## Workflow environment
-It is required to have fully configured Postgresql, we recommend a 17.2 version in a version on your local machine.
+It is required to have fully configured Postgresql, we recommend a 17.2 version as a one on your local machine.
 
 <br>
 
