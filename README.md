@@ -31,9 +31,7 @@ It is required to have fully configured Postgresql, we recommend a 17.2 version 
 
 <br>
 
-# Database Schema
-
-## Data structure
+## Database Schema - Data structure
 
 ### Table: Users
 | Field Name       | Data Type   | Length  | Description                                      |
